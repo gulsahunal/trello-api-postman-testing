@@ -1,5 +1,7 @@
 # Trello API Testing with Postman
 
+Türkçe README: [Türkçe Özet](turkce/README.md)
+
 This project documents a practical Trello API testing workflow executed in Postman.
 Requests were made to create, list, update, and delete Trello resources, using API key and token authentication for secure access.
 Response data and timing were validated to improve API integration and testing skills.
@@ -38,29 +40,9 @@ Postman tests were used to validate:
 - Response time assertions passed under defined thresholds.
 - This repository is published as a project presentation.
 
-## GitHub Pages Task Links
+## Task Pages
 
-### Turkish Tasks
-
-- Task 01: [Create Board (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-01-create-board.html)
-- Task 02: [Create Left List (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-02-create-left-list.html)
-- Task 03: [Create Right List (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-03-create-right-list.html)
-- Task 04: [Create Left Card (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-04-create-left-card.html)
-- Task 05: [Create Right Card (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-05-create-right-card.html)
-- Task 06: [Delete Card (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-06-delete-card.html)
-- Task 07: [Get Board Data (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-07-get-board-data.html)
-- Task 08: [Update Board (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-08-update-board.html)
-
-### English Tasks
-
-- Task 01: [Create Board (EN)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-01-create-board.html)
-- Task 02: [Create Left List (EN)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-02-create-left-list.html)
-- Task 03: [Create Right List (EN)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-03-create-right-list.html)
-- Task 04: [Create Left Card (EN)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-04-create-left-card.html)
-- Task 05: [Create Right Card (EN)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-05-create-right-card.html)
-- Task 06: [Delete Card (EN)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-06-delete-card.html)
-- Task 07: [Get Board Data (EN)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-07-get-board-data.html)
-- Task 08: [Update Board (EN)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-08-update-board.html)
+- Open all tasks from one page: [English Task List](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/index.html)
 
 ## Repository Structure
 
