@@ -3,25 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gorev 03 - Panoda sagda liste olusturun</title>
+  <title>Görev 03 - Panoda sağda liste oluşturun</title>
   <link rel="stylesheet" href="../resources/task-clean.css">
 </head>
 <body>
   <main class="task-page">
-    <nav class="top-nav" aria-label="Ust gezinme">
-      <a class="nav-link" href="../index.html">Kanit Ana Sayfasi</a>
-      <a class="nav-link" href="index.html">TR Gorev Listesi</a>
-      <a class="nav-link" href="../en/task-03-create-right-list.html">Ingilizce Surum</a>
+    <nav class="top-nav" aria-label="Üst gezinme">
+      <a class="nav-link" href="../index.html">Kanıt Ana Sayfası</a>
+      <a class="nav-link" href="index.html">TR Görev Listesi</a>
+      <a class="nav-link" href="../en/task-03-create-right-list.html">İngilizce Sürüm</a>
     </nav>
 
     <section class="card task-header">
-      <p class="task-id">Gorev 03</p>
-      <h1>Panoda sagda liste olusturun</h1>
-      <p class="task-description">pos=bottom parametresi ile Right isimli listeyi panonun saginda olusturma istegi.</p>
+      <p class="task-id">Görev 03</p>
+      <h1>Panoda sağda liste oluşturun</h1>
+      <p class="task-description">pos=bottom parametresi ile Right isimli listeyi panonun sağında oluşturma isteği.</p>
     </section>
 
     <section class="card">
-      <h2>Istek Bilgisi</h2>
+      <h2>İstek Bilgisi</h2>
       <dl class="meta">
         <div class="meta-row">
           <dt>Metot</dt>
@@ -35,32 +35,32 @@
     </section>
 
     <section class="card">
-      <h2>Test Betigi</h2>
+      <h2>Test Betiği</h2>
       <pre><code>pm.test(&quot;Status code is 200&quot;, function () {
     pm.response.to.have.status(200);
 });
 
-pm.test(&quot;Istek suresi 500 ms&#39;den kisa olmali&quot;, function () {
+pm.test(&quot;İstek süresi 500 ms&#39;den kısa olmalı&quot;, function () {
     pm.expect(pm.response.responseTime).to.be.below(500);
 });
 
-pm.test(&quot;name bir string olmalidir&quot;, function () {
+pm.test(&quot;name bir string olmalıdir&quot;, function () {
     var jsonData = pm.response.json();
     pm.expect(jsonData.name).to.be.a(&quot;string&quot;);
 });</code></pre>
     </section>
 
     <section class="card">
-      <h2>Yanit Kaniti</h2>
+      <h2>Yanıt Kanıtı</h2>
       <figure>
-        <img src="../resources/cellImage_958200237_0.jpg" alt="Gorev 03 yanit ekran goruntusu">
-        <figcaption>Yanit govdesi ekran goruntusu.</figcaption>
+        <img src="../resources/cellImage_958200237_0.jpg" alt="Görev 03 yanıt ekran görüntüsü">
+        <figcaption>Yanıt gövdesi ekran görüntüsü.</figcaption>
       </figure>
     </section>
 
-    <section class="card pager" aria-label="Gorev gezinmesi">
-      <a href="task-02-create-left-list.html">Onceki Gorev</a>
-      <a href="task-04-create-left-card.html">Sonraki Gorev</a>
+    <section class="card pager" aria-label="Görev gezinmesi">
+      <a href="task-02-create-left-list.html">Önceki Görev</a>
+      <a href="task-04-create-left-card.html">Sonraki Görev</a>
     </section>
   </main>
 </body>

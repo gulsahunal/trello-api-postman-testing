@@ -36,15 +36,11 @@ Postman tests were used to validate:
 - 8/8 tasks completed successfully in the documented run.
 - Expected HTTP status responses were received for each request.
 - Response time assertions passed under defined thresholds.
-- This repository is presented as a live showcase.
+- This repository is published as a project presentation.
 
-## Live Showcase (GitHub Pages)
+## GitHub Pages Task Links
 
-- Language selector: [Open Showcase](https://gulsahunal.github.io/trello-api-postman-testing/evidence/index.html)
-- Turkish index: [Open Turkish Task List](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/index.html)
-- English index: [Open English Task List](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/index.html)
-
-### Turkish Task Pages
+### Turkish Tasks
 
 - Task 01: [Create Board (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-01-create-board.html)
 - Task 02: [Create Left List (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-02-create-left-list.html)
@@ -55,7 +51,7 @@ Postman tests were used to validate:
 - Task 07: [Get Board Data (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-07-get-board-data.html)
 - Task 08: [Update Board (TR)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-08-update-board.html)
 
-### English Task Pages
+### English Tasks
 
 - Task 01: [Create Board (EN)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-01-create-board.html)
 - Task 02: [Create Left List (EN)](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-02-create-left-list.html)
@@ -69,5 +65,5 @@ Postman tests were used to validate:
 ## Repository Structure
 
 - docs/: English technical notes and request/test references
-- evidence/: Live showcase pages for Turkish and English evidence views
+- evidence/: Turkish and English task pages for project presentation
 - turkce/: Turkish summary documents

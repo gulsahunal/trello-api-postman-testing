@@ -1,46 +1,42 @@
-# Trello API Test Projesi (Turkce Ozet)
+# Trello API Test Projesi (Türkçe Özet)
 
-Bu klasor, ana projedeki Ingilizce dokumantasyonun Turkce ozetini icerir.
+Bu klasör, ana projedeki İngilizce dokümantasyonun Türkçe özetini içerir.
 
-## Proje Amaci
+## Proje Amacı
 
-Postman kullanilarak Trello API uzerinde su islemler test edildi:
+Postman kullanılarak Trello API üzerinde şu işlemler test edildi:
 
-- Pano olusturma
-- Liste olusturma (sol/ust ve sag/alt)
-- Kart olusturma
+- Pano oluşturma
+- Liste oluşturma (sol/üst ve sağ/alt)
+- Kart oluşturma
 - Kart silme
-- Pano bilgisi cekme
-- Pano guncelleme
+- Pano bilgisi çekme
+- Pano güncelleme
 
-API key ve token ile guvenli erisim saglandi.
-Response dogrulugu ve sure kontrolleri ile test kalitesi artirildi.
+API key ve token ile güvenli erişim sağlandı.
+Yanıt doğruluğu ve süre kontrolleri ile test kalitesi artırıldı.
 
-## Test Sonuc Ozeti
+## Test Sonuç Özeti
 
-- 8 gorevin tamami basariyla tamamlandi.
-- Her istekte beklenen HTTP durum kodlari alindi.
-- Sure kontrolleri esik degerler altinda gecti (genel olarak < 500 ms, guncelleme istegi < 400 ms).
-- Bu repo sadece canli proje gosterimi icin duzenlenmistir.
+- 8 görevin tamamı başarıyla tamamlandı.
+- Her istekte beklenen HTTP durum kodları alındı.
+- Süre kontrolleri eşik değerler altında geçti (genel olarak < 500 ms, güncelleme isteği < 400 ms).
+- Bu depo, proje çıktılarının sunumu için yayımlanmıştır.
 
-## Canli Gosterim (GitHub Pages)
+## GitHub Pages Görev Bağlantıları
 
-- Dil secimi: [Kanit Giris Sayfasi](https://gulsahunal.github.io/trello-api-postman-testing/evidence/index.html)
-- Turkce gorev listesi: [TR Gorevler](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/index.html)
-- Ingilizce gorev listesi: [EN Gorevler](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/index.html)
+### Türkçe Görevler
 
-### Turkce Gorev Sayfalari
+- Görev 01: [Pano Oluştur](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-01-create-board.html)
+- Görev 02: [Sol Liste Oluştur](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-02-create-left-list.html)
+- Görev 03: [Sağ Liste Oluştur](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-03-create-right-list.html)
+- Görev 04: [Sol Listeye Kart Ekle](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-04-create-left-card.html)
+- Görev 05: [Sağ Listeye Kart Ekle](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-05-create-right-card.html)
+- Görev 06: [Kart Sil](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-06-delete-card.html)
+- Görev 07: [Pano Verisi Al](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-07-get-board-data.html)
+- Görev 08: [Pano Güncelle](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-08-update-board.html)
 
-- Gorev 01: [Pano Olustur](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-01-create-board.html)
-- Gorev 02: [Sol Liste Olustur](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-02-create-left-list.html)
-- Gorev 03: [Sag Liste Olustur](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-03-create-right-list.html)
-- Gorev 04: [Sol Listeye Kart Ekle](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-04-create-left-card.html)
-- Gorev 05: [Sag Listeye Kart Ekle](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-05-create-right-card.html)
-- Gorev 06: [Kart Sil](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-06-delete-card.html)
-- Gorev 07: [Pano Verisi Al](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-07-get-board-data.html)
-- Gorev 08: [Pano Guncelle](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/task-08-update-board.html)
-
-### Ingilizce Gorev Sayfalari
+### İngilizce Görevler
 
 - Task 01: [Create Board](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-01-create-board.html)
 - Task 02: [Create Left List](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/task-02-create-left-list.html)
@@ -53,5 +49,5 @@ Response dogrulugu ve sure kontrolleri ile test kalitesi artirildi.
 
 ## Dosyalar
 
-- Bu klasorde Turkce ozet bulunur.
-- Ana teknik detaylar icin ust dizindeki README.md ve docs/ klasorune bakabilirsiniz.
+- Bu klasörde Türkçe özet bulunur.
+- Ana teknik detaylar için üst dizindeki README.md ve docs/ klasörüne bakabilirsiniz.
