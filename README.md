@@ -1,6 +1,6 @@
 # Trello API Testing with Postman
 
-Türkçe README: [Türkçe Özet](turkce/README.md)
+[Türkçe](turkce/README.md)
 
 This project documents a practical Trello API testing workflow executed in Postman.
 Requests were made to create, list, update, and delete Trello resources, using API key and token authentication for secure access.
@@ -42,7 +42,7 @@ Postman tests were used to validate:
 
 ## Task Pages
 
-- Open all tasks from one page: [English Task List](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/index.html)
+- Open all tasks: [Task List](https://gulsahunal.github.io/trello-api-postman-testing/evidence/en/index.html)
 
 ## Repository Structure
 

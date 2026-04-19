@@ -25,7 +25,7 @@ Yanıt doğruluğu ve süre kontrolleri ile test kalitesi artırıldı.
 
 ## Görev Sayfaları
 
-- Tüm görevleri tek sayfadan açın: [Türkçe Görev Listesi](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/index.html)
+- Tüm görevleri ulşaın: [Görev Listesi](https://gulsahunal.github.io/trello-api-postman-testing/evidence/tr/index.html)
 
 ## Dosyalar
 
