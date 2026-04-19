@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gorev 05 - Sagdaki listede kart olusturun</title>
+  <link rel="stylesheet" href="../resources/task-clean.css">
+</head>
+<body>
+  <main class="task-page">
+    <nav class="top-nav" aria-label="Ust gezinme">
+      <a class="nav-link" href="../index.html">Kanit Ana Sayfasi</a>
+      <a class="nav-link" href="index.html">TR Gorev Listesi</a>
+      <a class="nav-link" href="../en/task-05-create-right-card.html">Ingilizce Surum</a>
+    </nav>
+
+    <section class="card task-header">
+      <p class="task-id">Gorev 05</p>
+      <h1>Sagdaki listede kart olusturun</h1>
+      <p class="task-description">Task 3&#39;te olusturulan sag listede yeni kart olusturma istegi.</p>
+    </section>
+
+    <section class="card">
+      <h2>Istek Bilgisi</h2>
+      <dl class="meta">
+        <div class="meta-row">
+          <dt>Metot</dt>
+          <dd>POST</dd>
+        </div>
+        <div class="meta-row">
+          <dt>URL</dt>
+          <dd><a href="https://api.trello.com/1/cards?idList={{idlist}}&amp;key={{apikey}}&amp;token={{token}}" target="_blank" rel="noreferrer">https://api.trello.com/1/cards?idList={{idlist}}&amp;key={{apikey}}&amp;token={{token}}</a></dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="card">
+      <h2>Test Betigi</h2>
+      <pre><code>pm.test(&quot;Status code is 200&quot;, function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test(&quot;Istek suresi 500 ms&#39;den kisa olmali&quot;, function () {
+    pm.expect(pm.response.responseTime).to.be.below(500);
+});
+
+pm.test(&quot;id bir string olmalidir&quot;, function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.id).to.be.a(&quot;string&quot;);
+});</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Yanit Kaniti</h2>
+      <figure>
+        <img src="../resources/cellImage_1199853588_0.jpg" alt="Gorev 05 yanit ekran goruntusu">
+        <figcaption>Yanit govdesi ekran goruntusu.</figcaption>
+      </figure>
+    </section>
+
+    <section class="card pager" aria-label="Gorev gezinmesi">
+      <a href="task-04-create-left-card.html">Onceki Gorev</a>
+      <a href="task-06-delete-card.html">Sonraki Gorev</a>
+    </section>
+  </main>
+</body>
+</html>

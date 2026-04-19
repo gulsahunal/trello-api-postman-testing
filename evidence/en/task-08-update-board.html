@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 08 - Update board details</title>
+  <link rel="stylesheet" href="../resources/task-clean.css">
+</head>
+<body>
+  <main class="task-page">
+    <nav class="top-nav" aria-label="Top navigation">
+      <a class="nav-link" href="../index.html">Evidence Home</a>
+      <a class="nav-link" href="index.html">EN Task List</a>
+      <a class="nav-link" href="../tr/task-08-update-board.html">Turkish Version</a>
+    </nav>
+
+    <section class="card task-header">
+      <p class="task-id">Task 08</p>
+      <h1>Update board details</h1>
+      <p class="task-description">Update board data fields such as name and description.</p>
+    </section>
+
+    <section class="card">
+      <h2>Request Details</h2>
+      <dl class="meta">
+        <div class="meta-row">
+          <dt>Method</dt>
+          <dd>PUT</dd>
+        </div>
+        <div class="meta-row">
+          <dt>URL</dt>
+          <dd><a href="https://api.trello.com/1/boards/{{id}}/?type={{type}}&amp;key={{Apikey}}&amp;token={{token}}" target="_blank" rel="noreferrer">https://api.trello.com/1/boards/{{id}}/?type={{type}}&amp;key={{Apikey}}&amp;token={{token}}</a></dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="card">
+      <h2>Test Script</h2>
+      <pre><code>pm.test(&quot;Status code is 200&quot;, function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test(&quot;Response time should be below 400 ms&quot;, function () {
+    pm.expect(pm.response.responseTime).to.be.below(400);
+});</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Response Evidence</h2>
+      <figure>
+        <img src="../resources/cellImage_1143977193_0.jpg" alt="Task 08 response screenshot">
+        <figcaption>Response body screenshot.</figcaption>
+      </figure>
+    </section>
+
+    <section class="card pager" aria-label="Task navigation">
+      <a href="task-07-get-board-data.html">Previous Task</a>
+      <span class="spacer" aria-hidden="true">.</span>
+    </section>
+  </main>
+</body>
+</html>

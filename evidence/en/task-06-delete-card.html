@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 06 - Delete one created card</title>
+  <link rel="stylesheet" href="../resources/task-clean.css">
+</head>
+<body>
+  <main class="task-page">
+    <nav class="top-nav" aria-label="Top navigation">
+      <a class="nav-link" href="../index.html">Evidence Home</a>
+      <a class="nav-link" href="index.html">EN Task List</a>
+      <a class="nav-link" href="../tr/task-06-delete-card.html">Turkish Version</a>
+    </nav>
+
+    <section class="card task-header">
+      <p class="task-id">Task 06</p>
+      <h1>Delete one created card</h1>
+      <p class="task-description">Delete a card created in Task 4 or Task 5.</p>
+    </section>
+
+    <section class="card">
+      <h2>Request Details</h2>
+      <dl class="meta">
+        <div class="meta-row">
+          <dt>Method</dt>
+          <dd>DELETE</dd>
+        </div>
+        <div class="meta-row">
+          <dt>URL</dt>
+          <dd><a href="https://api.trello.com/1/cards/{{idcard}}?key={{Apikey}}&amp;token={{token}}&amp;idcard={{idcard}}" target="_blank" rel="noreferrer">https://api.trello.com/1/cards/{{idcard}}?key={{Apikey}}&amp;token={{token}}&amp;idcard={{idcard}}</a></dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="card">
+      <h2>Test Script</h2>
+      <p class="note">No test script is specified for this task.</p>
+    </section>
+
+    <section class="card">
+      <h2>Response Evidence</h2>
+      <figure>
+        <img src="../resources/cellImage_363694280_0.jpg" alt="Task 06 response screenshot">
+        <figcaption>Response body screenshot.</figcaption>
+      </figure>
+    </section>
+
+    <section class="card pager" aria-label="Task navigation">
+      <a href="task-05-create-right-card.html">Previous Task</a>
+      <a href="task-07-get-board-data.html">Next Task</a>
+    </section>
+  </main>
+</body>
+</html>

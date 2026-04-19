@@ -3,22 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Task 04 - Create Left Card</title>
-  <link rel="stylesheet" href="resources/task-clean.css">
+  <title>Gorev 04 - Soldaki listede kart olusturun</title>
+  <link rel="stylesheet" href="../resources/task-clean.css">
 </head>
 <body>
   <main class="task-page">
+    <nav class="top-nav" aria-label="Ust gezinme">
+      <a class="nav-link" href="../index.html">Kanit Ana Sayfasi</a>
+      <a class="nav-link" href="index.html">TR Gorev Listesi</a>
+      <a class="nav-link" href="../en/task-04-create-left-card.html">Ingilizce Surum</a>
+    </nav>
+
     <section class="card task-header">
-      <p class="task-id">Task 04</p>
+      <p class="task-id">Gorev 04</p>
       <h1>Soldaki listede kart olusturun</h1>
       <p class="task-description">Task 2&#39;de olusturulan sol listede yeni kart olusturma istegi.</p>
     </section>
 
     <section class="card">
-      <h2>Request</h2>
+      <h2>Istek Bilgisi</h2>
       <dl class="meta">
         <div class="meta-row">
-          <dt>Method</dt>
+          <dt>Metot</dt>
           <dd>POST</dd>
         </div>
         <div class="meta-row">
@@ -29,7 +35,7 @@
     </section>
 
     <section class="card">
-      <h2>Test Script</h2>
+      <h2>Test Betigi</h2>
       <pre><code>pm.test(&quot;Status code is 200&quot;, function () {
     pm.response.to.have.status(200);
 });
@@ -45,11 +51,16 @@ pm.test(&quot;id bir string olmalidir&quot;, function () {
     </section>
 
     <section class="card">
-      <h2>Response Evidence</h2>
+      <h2>Yanit Kaniti</h2>
       <figure>
-        <img src="resources/cellImage_1333255924_0.jpg" alt="Task 04 response body screenshot">
-        <figcaption>Response body ekran goruntusu.</figcaption>
+        <img src="../resources/cellImage_1333255924_0.jpg" alt="Gorev 04 yanit ekran goruntusu">
+        <figcaption>Yanit govdesi ekran goruntusu.</figcaption>
       </figure>
+    </section>
+
+    <section class="card pager" aria-label="Gorev gezinmesi">
+      <a href="task-03-create-right-list.html">Onceki Gorev</a>
+      <a href="task-05-create-right-card.html">Sonraki Gorev</a>
     </section>
   </main>
 </body>

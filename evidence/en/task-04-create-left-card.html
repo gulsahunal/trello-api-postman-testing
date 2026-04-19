@@ -1,21 +1,27 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Task 05 - Create Right Card</title>
-  <link rel="stylesheet" href="resources/task-clean.css">
+  <title>Task 04 - Create a card in left list</title>
+  <link rel="stylesheet" href="../resources/task-clean.css">
 </head>
 <body>
   <main class="task-page">
+    <nav class="top-nav" aria-label="Top navigation">
+      <a class="nav-link" href="../index.html">Evidence Home</a>
+      <a class="nav-link" href="index.html">EN Task List</a>
+      <a class="nav-link" href="../tr/task-04-create-left-card.html">Turkish Version</a>
+    </nav>
+
     <section class="card task-header">
-      <p class="task-id">Task 05</p>
-      <h1>Sagdaki listede kart olusturun</h1>
-      <p class="task-description">Task 3&#39;te olusturulan sag listede yeni kart olusturma istegi.</p>
+      <p class="task-id">Task 04</p>
+      <h1>Create a card in left list</h1>
+      <p class="task-description">Create a new card in the left list generated in Task 2.</p>
     </section>
 
     <section class="card">
-      <h2>Request</h2>
+      <h2>Request Details</h2>
       <dl class="meta">
         <div class="meta-row">
           <dt>Method</dt>
@@ -34,11 +40,11 @@
     pm.response.to.have.status(200);
 });
 
-pm.test(&quot;Istek suresi 500 ms&#39;den kisa olmali&quot;, function () {
+pm.test(&quot;Response time should be below 500 ms&quot;, function () {
     pm.expect(pm.response.responseTime).to.be.below(500);
 });
 
-pm.test(&quot;id bir string olmalidir&quot;, function () {
+pm.test(&quot;id should be a string&quot;, function () {
     var jsonData = pm.response.json();
     pm.expect(jsonData.id).to.be.a(&quot;string&quot;);
 });</code></pre>
@@ -47,9 +53,14 @@ pm.test(&quot;id bir string olmalidir&quot;, function () {
     <section class="card">
       <h2>Response Evidence</h2>
       <figure>
-        <img src="resources/cellImage_1199853588_0.jpg" alt="Task 05 response body screenshot">
-        <figcaption>Response body ekran goruntusu.</figcaption>
+        <img src="../resources/cellImage_1333255924_0.jpg" alt="Task 04 response screenshot">
+        <figcaption>Response body screenshot.</figcaption>
       </figure>
+    </section>
+
+    <section class="card pager" aria-label="Task navigation">
+      <a href="task-03-create-right-list.html">Previous Task</a>
+      <a href="task-05-create-right-card.html">Next Task</a>
     </section>
   </main>
 </body>
