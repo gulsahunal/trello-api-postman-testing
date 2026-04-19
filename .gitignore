@@ -1,0 +1,10 @@
+# Local secrets and env files
+.env
+.env.*
+
+# Postman export files that may contain secrets
+*.postman_environment.json
+*.postman_globals.json
+
+# macOS
+.DS_Store

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 08 - Update Board</title>
+  <link rel="stylesheet" href="resources/task-clean.css">
+</head>
+<body>
+  <main class="task-page">
+    <section class="card task-header">
+      <p class="task-id">Task 08</p>
+      <h1>Pano bilgisini guncelleyin</h1>
+      <p class="task-description">Olusturulan panoda name ve desc gibi alanlari guncelleme istegi.</p>
+    </section>
+
+    <section class="card">
+      <h2>Request</h2>
+      <dl class="meta">
+        <div class="meta-row">
+          <dt>Method</dt>
+          <dd>PUT</dd>
+        </div>
+        <div class="meta-row">
+          <dt>URL</dt>
+          <dd><a href="https://api.trello.com/1/boards/{{id}}/?type={{type}}&amp;key={{Apikey}}&amp;token={{token}}" target="_blank" rel="noreferrer">https://api.trello.com/1/boards/{{id}}/?type={{type}}&amp;key={{Apikey}}&amp;token={{token}}</a></dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="card">
+      <h2>Test Script</h2>
+      <pre><code>pm.test(&quot;Status code is 200&quot;, function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test(&quot;Istek suresi 400 ms&#39;den kisa olmali&quot;, function () {
+    pm.expect(pm.response.responseTime).to.be.below(400);
+});</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Response Evidence</h2>
+      <figure>
+        <img src="resources/cellImage_1143977193_0.jpg" alt="Task 08 response body screenshot">
+        <figcaption>Response body ekran goruntusu.</figcaption>
+      </figure>
+    </section>
+  </main>
+</body>
+</html>

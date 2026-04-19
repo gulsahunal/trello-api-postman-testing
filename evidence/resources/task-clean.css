@@ -1,0 +1,133 @@
+:root {
+  color-scheme: light;
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --border: #d8dee8;
+  --text: #152238;
+  --muted: #4b5a73;
+  --accent: #1f6feb;
+  --code-bg: #0f1724;
+  --code-text: #d5e1ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  background: linear-gradient(180deg, #f9fbff 0%, var(--bg) 100%);
+  color: var(--text);
+}
+
+.task-page {
+  width: min(980px, 100% - 2rem);
+  margin: 2rem auto 3rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 8px 20px rgba(15, 23, 36, 0.06);
+}
+
+.task-header {
+  background: #eef4ff;
+  border: 1px solid #c9d7f5;
+}
+
+.task-id {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+h2 {
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+}
+
+.task-description {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.meta {
+  display: grid;
+  gap: 0.7rem;
+  margin: 0;
+}
+
+.meta-row {
+  display: grid;
+  gap: 0.2rem;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+  background: var(--code-bg);
+  color: var(--code-text);
+  border-radius: 10px;
+  padding: 0.9rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  overflow-x: auto;
+}
+
+.note {
+  margin: 0;
+  color: var(--muted);
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+figcaption {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}

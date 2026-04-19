@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 05 - Create Right Card</title>
+  <link rel="stylesheet" href="resources/task-clean.css">
+</head>
+<body>
+  <main class="task-page">
+    <section class="card task-header">
+      <p class="task-id">Task 05</p>
+      <h1>Sagdaki listede kart olusturun</h1>
+      <p class="task-description">Task 3&#39;te olusturulan sag listede yeni kart olusturma istegi.</p>
+    </section>
+
+    <section class="card">
+      <h2>Request</h2>
+      <dl class="meta">
+        <div class="meta-row">
+          <dt>Method</dt>
+          <dd>POST</dd>
+        </div>
+        <div class="meta-row">
+          <dt>URL</dt>
+          <dd><a href="https://api.trello.com/1/cards?idList={{idlist}}&amp;key={{apikey}}&amp;token={{token}}" target="_blank" rel="noreferrer">https://api.trello.com/1/cards?idList={{idlist}}&amp;key={{apikey}}&amp;token={{token}}</a></dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="card">
+      <h2>Test Script</h2>
+      <pre><code>pm.test(&quot;Status code is 200&quot;, function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test(&quot;Istek suresi 500 ms&#39;den kisa olmali&quot;, function () {
+    pm.expect(pm.response.responseTime).to.be.below(500);
+});
+
+pm.test(&quot;id bir string olmalidir&quot;, function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.id).to.be.a(&quot;string&quot;);
+});</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Response Evidence</h2>
+      <figure>
+        <img src="resources/cellImage_1199853588_0.jpg" alt="Task 05 response body screenshot">
+        <figcaption>Response body ekran goruntusu.</figcaption>
+      </figure>
+    </section>
+  </main>
+</body>
+</html>
