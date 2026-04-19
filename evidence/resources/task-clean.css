@@ -259,6 +259,170 @@ figcaption {
   font-size: 0.92rem;
 }
 
+/* Root landing page styles */
+.site-landing {
+  --bg: #f4f6ff;
+  --ink: #131a2a;
+  --muted: #4f5b78;
+  --line: #d5ddf4;
+  --card: #ffffff;
+  --accent: #0f52ff;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Poppins", "Segoe UI", "Trebuchet MS", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(900px 500px at -10% -10%, #d8e4ff 0%, transparent 60%),
+    radial-gradient(900px 500px at 120% 120%, #c3fff2 0%, transparent 55%),
+    var(--bg);
+  display: grid;
+  place-items: center;
+  padding: 28px;
+}
+
+.site-landing .shell {
+  width: min(1020px, 100%);
+  display: grid;
+  gap: 18px;
+}
+
+.site-landing .card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: none;
+}
+
+.site-landing .hero {
+  padding: 34px;
+  position: relative;
+  overflow: hidden;
+}
+
+.site-landing .eyebrow {
+  margin: 0 0 10px;
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.site-landing h1 {
+  margin: 0;
+  font-size: clamp(1.7rem, 3.2vw, 2.65rem);
+  line-height: 1.15;
+  max-width: 19ch;
+}
+
+.site-landing .lead {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 1.02rem;
+  max-width: 58ch;
+  line-height: 1.55;
+}
+
+.site-landing .actions {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.site-landing .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 11px 16px;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+.site-landing .btn.primary {
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent), #2e7dff);
+}
+
+.site-landing .btn.primary:hover {
+  background: linear-gradient(135deg, #0c3dbf, #1a63e8);
+}
+
+.site-landing .btn.secondary {
+  color: var(--ink);
+  background: #f7f9ff;
+  border-color: var(--line);
+}
+
+.site-landing .btn.secondary:hover {
+  background: #e1e8f7;
+}
+
+.site-landing .grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.site-landing .block {
+  padding: 24px;
+}
+
+.site-landing h2 {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+}
+
+.site-landing .meta {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.site-landing .meta strong {
+  color: var(--ink);
+}
+
+.site-landing .jump-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.site-landing .jump-links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.site-landing .jump-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 780px) {
+  .site-landing {
+    padding: 14px;
+  }
+
+  .site-landing .hero,
+  .site-landing .block {
+    padding: 20px;
+  }
+
+  .site-landing .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 720px) {
   .page {
     width: min(980px, 100% - 1rem);
