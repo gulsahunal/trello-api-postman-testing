@@ -6,6 +6,10 @@ This project documents a practical Trello API testing workflow executed in Postm
 Requests were made to create, list, update, and delete Trello resources, using API key and token authentication for secure access.
 Response data and timing were validated to improve API integration and testing skills.
 
+## Repository Scope
+
+This repository publishes the documentation, screenshots, and walkthrough pages for a Postman-based Trello API exercise. It does not include the exported Postman collection or environment JSON; the request details are summarized in `docs/request-reference.md`.
+
 ## What Was Tested
 
 | Task | Action | Method | Endpoint |
@@ -16,7 +20,7 @@ Response data and timing were validated to improve API integration and testing s
 | 4 | Create card in left list | POST | /1/cards |
 | 5 | Create card in right list | POST | /1/cards |
 | 6 | Delete a card | DELETE | /1/cards/{idcard} |
-| 7 | Get board-related data | GET | /1/members/me/boards |
+| 7 | Get board data | GET | /1/members/me/boards |
 | 8 | Update board details | PUT | /1/boards/{id} |
 
 ## Authentication and Security

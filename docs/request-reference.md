@@ -4,15 +4,15 @@ This file summarizes the request definitions used in the Postman-based Trello AP
 
 ## Environment Variables Used
 
-- apikey or Apikey
+- apikey
 - token
-- id (board id in update/get tasks)
 - idboard
 - idlist
 - idcard
+- id (board id in update task)
 - type
 
-Note: The original exported tasks use both apikey and Apikey. For consistency in a real project, use a single variable naming style.
+Note: This reference normalizes the API key variable to `apikey`.
 
 ## Request List
 
@@ -43,15 +43,15 @@ Note: The original exported tasks use both apikey and Apikey. For consistency in
 
 ### Task 6 - Delete a Card
 - Method: DELETE
-- URL: https://api.trello.com/1/cards/{{idcard}}?key={{Apikey}}&token={{token}}&idcard={{idcard}}
+- URL: https://api.trello.com/1/cards/{{idcard}}?key={{apikey}}&token={{token}}&idcard={{idcard}}
 - Purpose: Delete a card created in previous tasks.
 
-### Task 7 - Get Cards on a Board (as implemented in source)
+### Task 7 - Get Board Data
 - Method: GET
-- URL: https://api.trello.com/1/members/me/boards?key={{Apikey}}&token={{token}}&id={{id}}
-- Purpose: Retrieve board-related data for the authenticated user.
+- URL: https://api.trello.com/1/members/me/boards?key={{apikey}}&token={{token}}
+- Purpose: Retrieve the authenticated user's boards.
 
 ### Task 8 - Update a Board
 - Method: PUT
-- URL: https://api.trello.com/1/boards/{{id}}/?type={{type}}&key={{Apikey}}&token={{token}}
+- URL: https://api.trello.com/1/boards/{{id}}/?type={{type}}&key={{apikey}}&token={{token}}
 - Purpose: Update board information (for example, name or description).

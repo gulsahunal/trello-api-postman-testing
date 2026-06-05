@@ -10,11 +10,15 @@ Postman kullanılarak Trello API üzerinde şu işlemler test edildi:
 - Liste oluşturma (sol/üst ve sağ/alt)
 - Kart oluşturma
 - Kart silme
-- Pano bilgisi çekme
+- Kimliği doğrulanmış kullanıcının panolarını listeleme
 - Pano güncelleme
 
 API key ve token ile güvenli erişim sağlandı.
 Yanıt doğruluğu ve süre kontrolleri ile test kalitesi artırıldı.
+
+## Kapsam Notu
+
+Bu depo, Postman tabanlı Trello API çalışmasının dokümantasyonunu, ekran görüntülerini ve görev sayfalarını yayınlar. Orijinal Postman collection ve environment JSON dışa aktarımları bu depoda yer almaz; istek ayrıntıları `docs/request-reference.md` dosyasında özetlenmiştir.
 
 ## Test Sonuç Özeti
 
